@@ -16,7 +16,7 @@ public class RequestInterceptor implements HandlerInterceptor {
         // We can authenticate user here
         // and send 401 from here
 //        response.sendError(401, "You are not authorized");
-        return false;
+        return true;
     }
 
     @Override
